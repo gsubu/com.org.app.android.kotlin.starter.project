@@ -1,4 +1,4 @@
-# com.org.app.android.kotlin.starter.project - Android Kotlin Starter Project Template with Kotlin Gradle DSL
+## Android Kotlin Starter Project Template with Kotlin Gradle DSL
 
 Use this starter template project to accelerate in starting your enterprise or personal android kotlin native apps.
 
