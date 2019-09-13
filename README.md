@@ -13,3 +13,5 @@ Use this starter template project to accelerate in starting your enterprise or p
 ##### Mockk
 
 Please feel to add and remove libraries from Dependencies.kt and app's build.gradle.kts
+
+https://medium.com/@gsubu1/android-kotlin-starter-project-template-with-kotlin-gradle-dsl-867ae2dfd4b4
