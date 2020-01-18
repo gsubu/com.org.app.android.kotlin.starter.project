@@ -26,6 +26,16 @@ android {
         exclude ("META-INF/DEPENDENCIES*")
         exclude ("META-INF/LICENSE*")
     }
+
+    sourceSets.getByName("main") {
+        java.srcDirs("src/main/kotlin")
+    }
+    sourceSets.getByName("test") {
+        java.srcDirs("src/test/kotlin")
+    }
+    sourceSets.getByName("androidTest") {
+        java.srcDirs("src/androidTest/kotlin")
+    }
 }
 
 dependencies {
@@ -45,6 +55,7 @@ dependencies {
     //implementation(Libraries.AndroidX.cardView)
     implementation(Libraries.AndroidX.constraintLayout)
     implementation(Libraries.AndroidX.recyclerView)
+    //implementation(Libraries.AndroidX.security)
     //implementation(Libraries.AndroidX.appcompat)
     //implementation(Libraries.AndroidX.transition)
     //implementation(Libraries.AndroidX.lifecycle)

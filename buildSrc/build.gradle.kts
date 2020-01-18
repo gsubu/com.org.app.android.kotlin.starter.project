@@ -11,3 +11,7 @@ plugins {
 kotlinDslPluginOptions {
     experimentalWarning.set(false)
 }
+
+sourceSets.getByName("main") {
+    java.srcDirs("src/main/kotlin")
+}
